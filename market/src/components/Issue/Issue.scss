@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.issue {
+    padding: 40px 0 150px;
+    mix-blend-mode: multiply;
+    background-color: #0565bb;
+    background-position: initial;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: 100% 100%;
+    background-color: 
+    #fccb05;
+
+    div{
+        margin-top: 80px;
+        .dice{
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            float: right;
+            margin-top: -60px;
+            #dice-1{
+                max-width:180px;
+                max-height:70px;
+                width: auto;
+                height: auto;
+                
+            }
+            #dice-2{
+                max-width:210px;
+                max-height:75px;
+                width: auto;
+                height: auto;
+            }
+        }
+        .issue-title{
+            width: 387px;
+            height: 34px;
+            margin: 88px 275px 10px 396px;
+            font-family: Montserrat;
+            font-size: 45px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: 4.5px;
+            text-align: left;
+            color: black;
+        }
+        .issue-content{
+            
+            font-family: NotoSansCJKkr;
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: center;
+            color: black;
+            display: block;
+            margin-bottom: 70px;
+        }
+        #a-issue{
+            width: 199px;
+            height: 60px;
+            margin-right: 40px;
+            padding: 21px 36px 21px 37px;
+            border: solid 3px #020001;
+            background-color: var(--white);
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    }
+    .whpn{
+        position: relative;
+        z-index: 0;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: stretch;
+        max-width: 100%;
+        margin-top: -40px;
+        .whpn-1,.whpn-2,.whpn-3,.whpn-4,.whpn-5{
+            width: 20%;
+            height:480px ;
+        }
+        .title-1,.title-2,.title-3,.title-4{
+            height: 50px;
+            p{
+                width: 180px;
+            
+            margin: 0 126px 24px 118px;
+            font-family: Montserrat;
+            font-size: 25px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            color: white;
+            line-height: 1.67;
+            letter-spacing: normal;
+            text-align: left;
+            padding-top: 5px;
+            }
+            
+        }
+        .title-1,.title-2,.title-4{
+            background-color: black;
+        }
+        .title-3{
+            background-color: 
+            #ff5500;
+        }
+        .whpn-1{
+            background-color: 
+            #ff5500;
+            height:450px ;
+            margin-top: 155px;
+            p{
+                width: 189px;
+                height: 97px;
+                font-size: 50px;
+                font-weight: 800;
+                margin-left: 100px;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.04;
+                letter-spacing: normal;
+                text-align: center;
+                color: #110e03;
+                font-family: Montserrat;
+                padding-top: 50px;
+            }
+            img{
+                width: 148px;
+                height: 148px;
+            }
+        }
+
+    }
+    .hotIcon{
+        
+        max-width:80px;
+        max-height:20px;
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin: 50px 0 -160px 377px;
+    }
+    .coinIcon{
+        max-width:120px;
+        max-height:120px;
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        margin: -50px 0 0 300px;
+    }
+    .lolIcon{
+        max-width:80px;
+        max-height:20px;
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: 1;
+        float: right;
+        margin: -90px 350px 0 0;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .issue{
+        display: none;
+    }}

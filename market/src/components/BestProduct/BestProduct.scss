@@ -1,0 +1,69 @@
+.bestProduct{
+    text-align: center;
+    background-image: url(../../img/bg1.png);
+    height: 900px;
+    .bestProduct-content{
+        padding-top: 100px;
+        color: #BA2C11;
+    }
+    .bestProduct-product{
+        
+        width: 100%;
+
+       
+        .bestProduct-go{
+            display: flex;
+            
+            div{
+                z-index: 2;
+            position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                width: 15%;
+                height: 55px;
+                border: 2px solid black;
+                margin-left: 320px;
+                margin-right: -130px;
+                margin-top: -30px;
+                background-color: white;
+                p{
+                    text-align: left;
+                    margin-left: 10px;
+                }
+                img{
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+            
+        }
+        .bestProduct-icon{
+            display: flex;
+            width: 80px;
+            height: 80px;
+            z-index: 2;
+            position: relative;
+            img
+            {
+                margin-left: 220px;
+                margin-right: 180px;
+            }
+            
+        }
+        .bestProduct-img{
+            z-index: 1;
+            display: flex;
+            position: relative;
+            width: 25%;
+            margin-left: 12%;
+            margin-top: -35px;
+        }
+    }
+    
+}
+@media screen and (max-width: 1300px) {
+    .bestProduct{
+        display: none;
+    }
+}

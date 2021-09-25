@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.whatHappen{
+    background-image:url(../../img/banner-footer.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    height: 950px;
+    background-size: 100% 100%;
+    
+    div{
+        margin-top: 80px;
+        .whatHappen-title{
+            width: 387px;
+            height: 34px;
+            margin: 88px 275px 10px 285px;
+            font-family: Montserrat;
+            font-size: 45px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 4.5px;
+            text-align: left;
+            color: black;
+        }
+        .whatHappen-content{
+            
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: center;
+            color: black;
+            display: block;
+            margin-bottom: 70px;
+        }
+        #a-whatHappen{
+            width: 179px;
+            height: 40px;
+            margin-right: 40px;
+            padding: 21px 36px 21px 37px;
+            border: solid 3px #020001;
+            background-color: var(--white);
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
+@media screen and (max-width: 1300px) {
+    .whatHappen{
+        div{
+            
+            .whatHappen-title{
+                
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: 3px;
+                text-align: left;
+                color: black;
+            }
+            .whatHappen-content{
+                
+                font-size: 16px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                text-align: center;
+                color: black;
+                display: block;
+                margin-bottom: 70px;
+            }
+            #a-whatHappen{
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .whatHappen{
+        div{
+            
+            .whatHappen-title{
+                
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: 1px;
+                text-align: left;
+                color: black;
+            }
+            .whatHappen-content{
+                
+                font-size: 14px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.88;
+                letter-spacing: normal;
+                text-align: center;
+                color: black;
+                display: block;
+                margin-bottom: 70px;
+            }
+            #a-whatHappen{
+                display: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    .whatHappen{
+        div{
+            width: 50%;
+            .whatHappen-title{
+                
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 0;
+                letter-spacing: 0px;
+                text-align: left;
+                color: black;
+            }
+        }
+    }
+}

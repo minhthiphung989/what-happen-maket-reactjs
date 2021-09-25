@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.brandStory {
+    padding: 40px 0 150px;
+    mix-blend-mode: multiply;
+    background-color: #0565bb;
+    background-position: initial;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: 100% 100%;
+    background-image: url(../../img/banner3.png);
+    margin-top: 100px;
+    div{
+        margin-top: 80px;
+        .brandStory-title{
+            width: 387px;
+            height: 34px;
+            margin: 88px 364px 10px 396px;
+            font-family: Montserrat;
+            font-size: 45px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: 4.5px;
+            text-align: left;
+            color: #fcd32a;
+        }
+        .brandStory-content{
+            
+            font-family: NotoSansCJKkr;
+            font-size: 16px;
+            font-weight: 300;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.88;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fcd32a;
+        }
+    }
+    .brandStory-what{
+        padding-top:100px ;
+        float:right;
+        width: 400px;
+        height: 500px;
+        margin-right: 500px;
+        .brandStory-WhatHappeneds{
+            font-family: Montserrat;
+            font-size: 25px;
+            font-weight: 800;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.4;
+            letter-spacing: normal;
+            text-align: left;
+            color: #222;
+        }
+        .brandStory-WhatHappeneds-content{
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2;
+            letter-spacing: normal;
+            text-align: left;
+            color: #222;
+            font-size: 14px;
+        }
+       .a-content{
+            padding: 21px 36px 21px 37px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            width: 250px;
+            height: 50px;
+            margin-left: -215px;
+            border: solid 3px #020001;
+            background-color: var(--white);
+            
+        }
+    }
+   
+    
+  }
+  @media screen and (max-width: 1300px) {
+    .brandStory{
+        display: none;
+    }
+}
